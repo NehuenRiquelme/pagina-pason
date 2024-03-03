@@ -192,12 +192,12 @@ form,.pasoncont h1{
 /* segunda pagina*/
 .success{
     padding: 2.5em;
-    min-height: 100vh;
+    min-height: 87vh;
     display: flex;
     justify-content: center;
     align-items: center;
   
-        height:100vh;
+       
         margin: 0;
         --x: calc(var(--posX, 0) * 1px);
         --y: calc(var(--posY, 0) * 1px);
