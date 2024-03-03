@@ -222,5 +222,14 @@ form,.pasoncont h1{
     max-width: 600px;
 }
 .success h1{
-    
+    font-size: 3em;
+    margin-bottom: 0.2em;
+}
+.success p{
+    line-height: 1.6em;
+    font-size: 1.1em;
+}
+.success a{
+    color: #3daeff;
+    text-decoration: none;
 }
