@@ -191,6 +191,12 @@ form,.pasoncont h1{
 }
 /* segunda pagina*/
 .success{
+    padding: 2.5em;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
         height:100vh;
         margin: 0;
         --x: calc(var(--posX, 0) * 1px);
@@ -201,4 +207,20 @@ form,.pasoncont h1{
 
     linear-gradient(60deg, rgb(255, 123, 0), rgb(6, 64, 255));
   background-blend-mode: overlay, overlay, difference, difference, difference, normal;
+
+}
+
+.success > div{
+    position: relative;
+    background: #21194ecc;
+    padding: 2.5em 3.5em;
+    color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 10px 10px 35px rgba(0, 0, 0, .7);
+    width: 100%;
+    max-width: 600px;
+}
+.success h1{
+    
 }
